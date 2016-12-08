@@ -16,7 +16,7 @@
 #define ANSI12 132 166 156 255
 #define ANSI13 214 134 156 255
 #define ANSI14 140 195 123 255
-#define ANSI15 239 219 181 255
+#define ANSI15 235 219 178 255
 
 #define BG_COLOR ANSI0
 
@@ -39,7 +39,7 @@ color_classes {
    color_class { name: "C14"; color: ANSI14; } // COL_CYAN
    color_class { name: "C15"; color: ANSI15; } // COL_WHITE
 
-   color_class { name: "c0";  color: 170 170 170 255; } // COL_DEF
+   color_class { name: "c0";  color: ANSI15; } // COL_DEF
    color_class { name: "c1";  color: ANSI0; } // COL_BLACK
    color_class { name: "c2";  color: ANSI1; } // COL_RED
    color_class { name: "c3";  color: ANSI2; } // COL_GREEN
@@ -50,7 +50,7 @@ color_classes {
    color_class { name: "c8";  color: ANSI7; } // COL_WHITE
    color_class { name: "c9";  color:   0   0   0   0; } // COL_INVIS
    color_class { name: "c10"; color: 34  34  34 255; } // COL_INVERSE
-   color_class { name: "c11"; color: 170 170 170 255; } // COL_INVERSEBG
+   color_class { name: "c11"; color: ANSI15; } // COL_INVERSEBG
 
    color_class { name: "c12"; color: 238 238 238 255; } // COL_DEF
    color_class { name: "c13"; color: ANSI8; } // COL_BLACK
